@@ -1,0 +1,19 @@
+{
+  "name": "agencia-rota",
+  "version": "1.0.0",
+  "description": "Agencia Full Stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauroociappinaph/rotoagenciafs.git"
+  },
+  "author": "Rota",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mauroociappinaph/rotoagenciafs/issues"
+  },
+  "homepage": "https://github.com/mauroociappinaph/rotoagenciafs#readme"
+}
