@@ -1,19 +1,18 @@
-import React from "react";
+import Logo from "../asset/ro-removebg-preview.png";
 
 const Header = () => {
   return (
     <section className="py-24 flex items-center min-h-screen justify-center bg-white">
-      <div className="mx-auto max-w-[43rem]">
+      <div className="mx-auto max-w-[43rem] px-4">
         <div className="text-center">
-          <p className="text-lg font-medium leading-8 text-teal-400">
-           Soluciones Full Stack
-          </p>
-          <h1 className="mt-3 text-[3.5rem] font-bold leading-[4rem] tracking-tight text-black">
-            Cambiando el rumbo hacia&nbsp;soluciones innovadoras.
-          </h1>
-          <p className="mt-3 text-lg leading-relaxed text-slate-400">
-            Specify helps you unify your brand identity by collecting, storing
-            and distributing design tokens and assets — automatically.
+          <div className="flex justify-center items-center">
+            <img src={Logo} alt="Rota Logo" className="w-164 h-164 mb-4" />
+          </div>
+          <p className="  text-lg leading-relaxed text-black">
+            Nos esforzamos por ser la brújula que guía a nuestros clientes hacia
+            soluciones innovadoras. En un mundo en constante evolución,
+            trabajamos incansablemente para transformar desafíos en
+            oportunidades y ofrecer resultados que marcan la diferencia.
           </p>
         </div>
       </div>
