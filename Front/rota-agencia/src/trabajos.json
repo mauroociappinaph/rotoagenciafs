@@ -20,11 +20,6 @@
         "titulo": "Título del Blog 4",
         "foto": "https://placehold.co/300x200/d1d4ff/352cb5.png",
         "descripcion": "Esta es una descripción para el Blog 3."
-      },
-      {
-        "titulo": "Título del Blog 3",
-        "foto": "https://placehold.co/300x200/d1d4ff/352cb5.png",
-        "descripcion": "Esta es una descripción para el Blog 3."
       }
     
   ]
