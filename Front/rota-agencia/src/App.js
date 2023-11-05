@@ -10,12 +10,9 @@ function App() {
   return (
     <div className="bg-principal min-h-screen">
       <div className="container mx-auto p-4">
-        <Nav />
-        <Header />
-        <Hacemos />
-        <Trabajos />
-        <ContactForm />
-        <Footer />
+        {[Nav, Header, Hacemos, Trabajos, ContactForm, Footer].map((Component, index) => (
+          <Component key={index} />
+        ))}
       </div>
     </div>
   );
