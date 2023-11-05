@@ -1,16 +1,22 @@
 import React from 'react';
 
 // Importa tus imágenes de manera similar
-import imagen1 from "../asset/fotosTrabajos/1.png"; // Asegúrate de que la ruta sea correcta
+import imagen1 from "../asset/fotosTrabajos/1.png"; 
+import imagen2 from "../asset/fotosTrabajos/2.png";
 
 const trabajosData = [
   {
     titulo: "Página Web BlogDeCafé",
     foto: imagen1,
-    descripcion: "Esta es una descripción del proyecto BlogDeCafé, una página web dedicada al mundo del café, que combina un diseño elegante con una experiencia de usuario excepcional.",
+    descripcion: "Una página web dedicada al mundo del café, que combina un diseño elegante con una experiencia de usuario excepcional.",
     tecnologias: "Desarrollado con HTML, CSS y JavaScript",
   },
-  // Agrega el resto de objetos del array con las imágenes importadas
+  {
+    titulo: "Buffete",
+  foto: imagen2, // Asegúrate de que la ruta sea correcta
+  descripcion: "Página web de un restaurant.Combina un diseño elegante con una experiencia de usuario excepcional.",
+  tecnologias: "Desarrollado con HTML, CSS y JavaScript",
+  }
 ];
 
 function CardsTrabajos() {
