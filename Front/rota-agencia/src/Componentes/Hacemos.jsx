@@ -1,4 +1,3 @@
-import React from "react";
 
 const Hacemos = () => {
   return (
@@ -9,7 +8,8 @@ const Hacemos = () => {
             ¿Quiénes somos?
           </h3>
           <p className="mt-4 text-base sm:text-lg lg:text-xl leading-relaxed">
-            Somos una agencia Full Stack comprometida con la innovación y la excelencia. Nuestra pasión es desarrollar soluciones digitales que marquen la diferencia en el mundo.
+            Somos una agencia Full Stack comprometida con la innovación y la excelencia.
+            Nuestra pasión es desarrollar soluciones digitales que marquen la diferencia en el mundo.
           </p>
         </div>
         <div className="text-center text-black">
@@ -17,7 +17,8 @@ const Hacemos = () => {
             ¿Qué Hacemos?
           </h3>
           <p className="mt-4 text-base sm:text-lg lg:text-xl leading-relaxed">
-            Ofrecemos una amplia gama de servicios, desde desarrollo web y aplicaciones móviles hasta consultoría en tecnología. Trabajamos en estrecha colaboración con nuestros clientes para llevar sus ideas al siguiente nivel.
+            Ofrecemos una amplia gama de servicios, desde desarrollo web y aplicaciones móviles hasta consultoría en tecnología.
+            Trabajamos en estrecha colaboración con nuestros clientes para llevar sus ideas al siguiente nivel.
           </p>
         </div>
       </div>

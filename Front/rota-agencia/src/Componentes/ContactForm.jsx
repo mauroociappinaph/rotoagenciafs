@@ -18,9 +18,9 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="flex justify-center items-center h-screen">
+    <div className="flex flex-col justify-center items-center h-screen">
+        <h1 className="text-6xl font-bold mb-10">Contacto</h1>
       <form className="w-full max-w-md">
-        <h2 className="text-3xl font-bold mb-4">Contacto</h2>
         <div className="flex flex-wrap -mx-3 mb-6">
           <div className="w-full px-3">
             <label
