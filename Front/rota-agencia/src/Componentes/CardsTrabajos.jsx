@@ -31,7 +31,7 @@ const trabajosData = [
   {
     titulo: "ECOMMERCE",
     foto: imagen5, // Asegúrate de que la ruta sea correcta
-    descripcion: "Es una plataforma de cursos en línea que permite a los usuarios explorar, comprar y gestionar su educación de manera eficiente. Los estudiantes pueden seleccionar cursos y agregarlos al carrito de compras, con la flexibilidad de eliminar cursos si cambian de opinión. Además, los usuarios pueden modificar su pedido antes de finalizar la compra, lo que les brinda un mayor control sobre su experiencia de aprendizaje en línea. En resumen, la plataforma facilita la exploración, compra y personalización de cursos en línea.",
+    descripcion: "Es una plataforma de cursos en línea que permite a los usuarios explorar, comprar y gestionar. Los estudiantes pueden seleccionar cursos y agregarlos al carrito de compras,modificar y eliminar cursos.",
     tecnologias: "Desarrollado con HTML, TAILWIND y JavaScript",
   },
 ];
