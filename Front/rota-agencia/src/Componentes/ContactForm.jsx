@@ -19,7 +19,7 @@ const ContactForm = () => {
 
   return (
     <div className="flex flex-col justify-center items-center h-screen">
-        <h1 className="text-6xl font-bold mb-10">Contacto</h1>
+      <h1 className="text-6xl font-bold mb-10">Contacto</h1>
       <form className="w-full max-w-md">
         <div className="flex flex-wrap -mx-3 mb-6">
           <div className="w-full px-3">
@@ -80,8 +80,8 @@ const ContactForm = () => {
         <div className="md:flex md:items-center">
           <div className="md:w-1/3">
             <button
-              className="shadow bg-teal-400 hover-bg-teal-500 focus-shadow-outline focus-outline-none text-white font-bold py-2 px-4 rounded"
-              type="submit"
+              type="button"
+              className="border bg-gray-500 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-gray-700 focus:outline-none focus:shadow-outline"
               onClick={handleSubmit}
             >
               Enviar
